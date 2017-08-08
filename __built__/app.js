@@ -70,15 +70,17 @@
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
+// EXTERNAL MODULE: ./node_modules/lodash/lodash.js
+var lodash = __webpack_require__(1);
+var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
+
 // CONCATENATED MODULE: ./lodash.ts
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 
 
 
 // CONCATENATED MODULE: ./index.ts
 
-console.log(__WEBPACK_IMPORTED_MODULE_0_lodash__[true].VERSION);
+console.log(lodash.VERSION);
 
 
 /***/ }),
